@@ -1,1 +1,4 @@
-// export { Navbar } from './navbar/navbar.jsx';
+export { Navbar } from './navbar/Navbar.jsx';
+export { About } from './about/About.jsx';
+export { Contact } from './contact/Contact.jsx';
+export { Footer } from './footer/Footer.jsx';
