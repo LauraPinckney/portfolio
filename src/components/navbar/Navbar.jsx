@@ -1,7 +1,9 @@
 export const Navbar = () => {
   return (
     <div>
-      <h1>Navbar</h1>
+      <h3>About</h3>
+      <h3>Projects</h3>
+      <h2>Contact</h2>
     </div>
   );
 };
