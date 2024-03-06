@@ -4,15 +4,13 @@ export const About = () => {
       <h1>Laura Pinckney</h1>
       <h2>Software Engineer</h2>
       <h3>
-        Whilst on maternity leave I tried some online coding challenges to push
-        my brain. When my baby stopped sleeping coding had to take a back seat
-        but once I got childcare I was able to enrol in an intensive 12week
-        Bootcamp in Software Engineering and haven't looked back since.
+        Whilst on maternity leave I decided to try some online coding courses to
+        keep my brain working in an educational way. I really enjoyed the
+        methodical nature of executing code and ultimately making it work.{' '}
       </h3>
       <h3>
-        With a background in administration I enjoy the methodical and order
-        nature of software engineering. I am passionate about solutions for the
-        user that enhance their experience.
+        I completed an intensive 12 week bootcamp in Software Engineering and am
+        looking forward to starting my new career.
       </h3>
     </div>
   );
