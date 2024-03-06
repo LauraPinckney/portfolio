@@ -4,7 +4,15 @@ export const Contact = () => {
       <h2>I love a chat! Hopefully speak to you soon</h2>
       <p>Email</p>
       <p>GitHub</p>
-      <p>LinkedIn</p>
+      <div>
+        <a href="https://www.linkedin.com/in/laurapinckney/" target="_blank">
+          <img
+            src="../../assets/iconmonstr-linkedin-3.svg"
+            alt="LinkedIn"
+            height="100"
+          ></img>
+        </a>
+      </div>
     </div>
   );
 };
