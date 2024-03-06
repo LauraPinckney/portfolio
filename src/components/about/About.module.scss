@@ -5,15 +5,5 @@
   display: flex;
   justify-content: space-evenly;
   padding: 2em;
-}
-
-.logo {
-  height: 1.5em;
-}
-
-.logos {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-around;
+  flex-direction: column;
 }

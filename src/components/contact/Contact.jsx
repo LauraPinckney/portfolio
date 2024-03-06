@@ -6,8 +6,10 @@ import styles from './Contact.module.scss';
 export const Contact = () => {
   return (
     <div>
-      <h2>I love a chat! Hopefully speak to you soon</h2>
-      <div className={styles.container}>
+      <h2 className={styles.container}>
+        I love a chat! Hopefully speak to you soon
+      </h2>
+      <div className={styles.logos}>
         <div>
           <a href="mailto:lauraiscodingpleaseleaveamsg@gmail.com">
             <img src={mail} alt="Email" className={styles.logo}></img>

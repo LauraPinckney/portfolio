@@ -1,6 +1,8 @@
+import styles from './About.module.scss';
+
 export const About = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Laura Pinckney</h1>
       <h2>Software Engineer</h2>
       <h3>
