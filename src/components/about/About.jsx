@@ -1,4 +1,5 @@
 import styles from './About.module.scss';
+import LauraPinckneyCV from '../../assets/LauraPinckneyCV.pdf';
 
 export const About = () => {
   return (
@@ -14,7 +15,7 @@ export const About = () => {
         I completed an intensive 12 week bootcamp in Software Engineering and am
         looking forward to starting my new career.
       </h3>
-      <a rel="noopener" target="_blank" href="../../assets/Laura_Pinckney.pdf">
+      <a rel="noreferrer" target="_blank" href={LauraPinckneyCV}>
         View Resume
       </a>
     </div>

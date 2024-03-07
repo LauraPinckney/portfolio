@@ -16,12 +16,20 @@ export const Contact = () => {
           </a>
         </div>
         <div>
-          <a href="https://github.com/LauraPinckney" target="_blank">
+          <a
+            href="https://github.com/LauraPinckney"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={github} alt="Github" className={styles.logo}></img>
           </a>
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/laurapinckney/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/laurapinckney/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={linkedin} alt="LinkedIn" className={styles.logo}></img>
           </a>
         </div>
