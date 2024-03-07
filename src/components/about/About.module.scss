@@ -5,5 +5,21 @@
   display: flex;
   justify-content: space-evenly;
   padding: 2em;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.spacing {
+  padding-right: 0.75em;
+}
+
+.blurb {
+  padding-bottom: 1em;
+}
+
+.resumeButton {
+  border: solid whitesmoke 1px;
+  padding: 0.5em;
+  text-decoration: none;
+  background-color: whitesmoke;
+  border-radius: 10px;
 }
