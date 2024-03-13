@@ -11,6 +11,7 @@ export const ProjectComponent = (props) => {
         <h2>{about}</h2>
         <p>{tech}</p>
         <a href={liveCode} target="_blank" rel="noopener noreferrer"></a>
+        <a href={sourceCode} target="_blank" rel="noopener noreferrer"></a>
       </div>
     </div>
   );

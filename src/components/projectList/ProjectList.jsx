@@ -12,6 +12,7 @@ export const ProjectList = () => {
         about={project.about}
         tech={project.tech}
         liveCode={project.liveCode}
+        sourceCode={project.sourceCode}
       />
     );
   });
