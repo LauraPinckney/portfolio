@@ -1,11 +1,19 @@
 import './styles/global.scss';
-import { About, Contact, Footer, Navbar, ProjectComponent } from './components';
+import {
+  About,
+  Contact,
+  Footer,
+  Navbar,
+  ProjectComponent,
+  ProjectList,
+} from './components';
 
 export const App = () => {
   return (
     <div>
       <About />
-      <ProjectComponent />
+
+      <ProjectList />
       <Contact />
       <Footer />
     </div>
