@@ -5,7 +5,8 @@
     "about": "please work",
     "tech": "JavaScript",
     "liveCode": "https://github.com/LauraPinckney/HowSickIsMyBaby-API",
-    "sourceCode": "https://github.com/LauraPinckney/HowSickIsMyBaby-API"
+    "sourceCode": "https://github.com/LauraPinckney/HowSickIsMyBaby-API",
+    "image": ""
   },
   {
     "id": "test2",
@@ -13,7 +14,8 @@
     "about": "please work2",
     "tech": "JavaScript2",
     "liveCode": "https://github.com/LauraPinckney/HowSickIsMyBaby-API",
-    "sourceCode": "https://github.com/LauraPinckney/HowSickIsMyBaby-API"
+    "sourceCode": "https://github.com/LauraPinckney/HowSickIsMyBaby-API",
+    "image": ""
   },
   {
     "id": "test3",
@@ -21,6 +23,7 @@
     "about": "please work3",
     "tech": "JavaScript3",
     "liveCode": "https://github.com/LauraPinckney/HowSickIsMyBaby-API",
-    "sourceCode": "https://github.com/LauraPinckney/HowSickIsMyBaby-API"
+    "sourceCode": "https://github.com/LauraPinckney/HowSickIsMyBaby-API",
+    "image": ""
   }
 ]

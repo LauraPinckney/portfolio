@@ -1,7 +1,10 @@
+import React from 'react';
+import styles from './ProjectComponent.module.scss';
+
 export const ProjectComponent = () => {
   return (
-    <div>
-      <h1>Display projects HEREEEEEEEEEEEEE</h1>
+    <div className={styles.container}>
+      <h1>Project here</h1>
     </div>
   );
 };
