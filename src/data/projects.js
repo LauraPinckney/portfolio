@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 'test',
+    id: 'capstone',
     title: 'is this working',
     about: 'please work',
     tech: 'JavaScript',
@@ -9,7 +9,7 @@ export const projects = [
     image: '',
   },
   {
-    id: 'test2',
+    id: 'roboFriends',
     title: 'is this working2',
     about: 'please work2',
     tech: 'JavaScript2',
@@ -18,28 +18,10 @@ export const projects = [
     image: '',
   },
   {
-    id: 'test3',
+    id: 'background generator',
     title: 'is this working3',
     about: 'please work3',
     tech: 'JavaScript3',
-    liveCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
-    sourceCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
-    image: '',
-  },
-  {
-    id: 'test4',
-    title: 'is this working4',
-    about: 'please work4',
-    tech: 'JavaScript4',
-    liveCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
-    sourceCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
-    image: '',
-  },
-  {
-    id: 'test5',
-    title: 'is this working5',
-    about: 'please work5',
-    tech: 'JavaScript5',
     liveCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
     sourceCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
     image: '',
