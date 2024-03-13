@@ -26,4 +26,22 @@ export const projects = [
     sourceCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
     image: '',
   },
+  {
+    id: 'test4',
+    title: 'is this working4',
+    about: 'please work4',
+    tech: 'JavaScript4',
+    liveCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
+    sourceCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
+    image: '',
+  },
+  {
+    id: 'test5',
+    title: 'is this working5',
+    about: 'please work5',
+    tech: 'JavaScript5',
+    liveCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
+    sourceCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby-API',
+    image: '',
+  },
 ];

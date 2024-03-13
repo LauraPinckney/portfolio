@@ -10,6 +10,7 @@ export const ProjectList = () => {
         key={i}
         title={project.title}
         about={project.about}
+        tech={project.tech}
         liveCode={project.liveCode}
       />
     );
