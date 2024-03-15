@@ -1,0 +1,12 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/variables';
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+
+.alert {
+  color: palevioletred;
+}
