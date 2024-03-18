@@ -11,7 +11,6 @@ export const ProjectList = () => {
         title={project.title}
         about={project.about}
         tech={project.tech}
-        liveCode={project.liveCode}
         sourceCode={project.sourceCode}
         image={project.image}
       />
