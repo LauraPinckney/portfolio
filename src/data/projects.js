@@ -14,7 +14,7 @@ export const projects = [
     tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
     liveCode: '',
     sourceCode: 'https://github.com/LauraPinckney/robofriends',
-    image: '',
+    image: '../assets/rf.png',
   },
   {
     title: 'Background Generator',
@@ -27,10 +27,10 @@ export const projects = [
   {
     title: 'Date Night Decider',
     about:
-      'Application created during first hackathon of bootcamp to decide on what to do for date night. Random selector of movie, cocktail and trivia to go through whilst the movie is loaded and cocktail is made. Used various APIs and worked in a team of two.',
+      'Application created during the first hackathon of my bootcamp to decide on what to do for date night. Random selector of movie, cocktail and trivia to go through whilst the movie is loaded and cocktail is made. Used various APIs and worked in a team of two.',
     tech: ['Javascript', 'HTML', 'CSS'],
     sourceCode:
       'https://github.com/LauraPinckney/Team-8-The-Tech-Titans-plus-One/tree/main',
-    image: '',
+    image: '../assets/dnd.png',
   },
 ];
