@@ -8,7 +8,7 @@ export const ProjectComponent = ({ title, about, tech, sourceCode, image }) => (
       <h2>{about}</h2>
       <p>{tech}</p>
       <a href={sourceCode} target="_blank" rel="noopener noreferrer">
-        <img src={image} alt="image of project" class={styles.image}></img>
+        <img src={image} alt="project" class={styles.image}></img>
       </a>
     </div>
   </div>
