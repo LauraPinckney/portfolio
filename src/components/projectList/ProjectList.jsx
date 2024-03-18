@@ -13,6 +13,7 @@ export const ProjectList = () => {
         tech={project.tech}
         liveCode={project.liveCode}
         sourceCode={project.sourceCode}
+        image={project.image}
       />
     );
   });
