@@ -20,7 +20,6 @@ export const ProjectList = () => {
   );
   return (
     <div className={styles.container}>
-      <h1>Project List</h1>
       <div>{projectDetails}</div>
     </div>
   );

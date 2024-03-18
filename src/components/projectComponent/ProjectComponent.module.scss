@@ -8,7 +8,16 @@
   flex-wrap: wrap;
 }
 
+.details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .image {
   max-height: 15em;
   max-width: 15em;
+}
+
+.tech {
+  padding: 1em 1em;
 }
