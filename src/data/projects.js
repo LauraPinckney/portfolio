@@ -1,3 +1,8 @@
+import howSickIsMyBaby from '../assets/howSickIsMyBaby.png';
+import roboFriends from '../assets/roboFriends.png';
+import backgroundGenerator from '../assets/backgroundGenerator.png';
+import dateNightDecider from '../assets/dateNightDecider.png';
+
 export const projects = [
   {
     title: 'How Sick is my Baby?',
@@ -5,22 +10,21 @@ export const projects = [
       'As a first time mum on maternity leave I found myself going down the Google rabbit hole late at night when support services were shut. I found a useful PDF but it was not accessible for sleep deprived caregiver’s. This app is designed to be user friendly, to assist in the decision of what level of medical care their baby needs. Uses cumulative scores that link to the relevant health advice suggested for the baby.',
     tech: ['JavaScript', 'HTML', 'CSS', 'React', 'GitHub'],
     sourceCode: 'https://github.com/LauraPinckney/HowSickIsMyBaby',
-    image: '../assets/howSickIsMyBaby.png',
+    image: howSickIsMyBaby,
   },
   {
     title: 'robo friends',
     about: 'Developed as part of my React learning. Fun app that uses an API.',
     tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
-
     sourceCode: 'https://github.com/LauraPinckney/robofriends',
-    image: '../assets/roboFriends.png',
+    image: roboFriends,
   },
   {
     title: 'Background Generator',
     about: 'Developed as part of my JavaScript learning.',
     tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
     sourceCode: 'https://github.com/LauraPinckney/BackgroundGenerator',
-    image: '../assets/backgroundGenerator.png',
+    image: backgroundGenerator,
   },
   {
     title: 'Date Night Decider',
@@ -29,6 +33,6 @@ export const projects = [
     tech: ['Javascript', 'HTML', 'CSS'],
     sourceCode:
       'https://github.com/LauraPinckney/Team-8-The-Tech-Titans-plus-One/tree/main',
-    image: '../assets/dateNightDecider.png',
+    image: dateNightDecider,
   },
 ];
