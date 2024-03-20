@@ -9,15 +9,15 @@ export const About = () => {
         <h2>Software Engineer</h2>
       </div>
       <div>
-        <h3>
+        <p className={styles.blurb}>
           Whilst on maternity leave I decided to try some online coding courses
           to keep my brain working in an educational way. I really enjoyed the
           methodical nature of executing code and ultimately making it work.{' '}
-        </h3>
-        <h3 className={styles.blurb}>
+        </p>
+        <p className={styles.blurb}>
           I completed an intensive 12 week bootcamp in Software Engineering and
           am looking forward to starting my new career.
-        </h3>
+        </p>
         <a
           className={styles.resumeButton}
           rel="noreferrer"

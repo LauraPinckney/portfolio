@@ -2,10 +2,8 @@
 @import '../../styles/partials/variables';
 
 .container {
-  display: flex;
-  justify-content: space-evenly;
   padding: 2em;
-  flex-direction: row;
+  text-align: center;
 }
 
 .spacing {
@@ -14,6 +12,7 @@
 
 .blurb {
   padding-bottom: 1em;
+  font-size: 1.15em;
 }
 
 .resumeButton {
