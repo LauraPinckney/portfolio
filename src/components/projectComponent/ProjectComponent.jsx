@@ -14,8 +14,8 @@ export const ProjectComponent = ({ title, about, tech, sourceCode, image }) => (
       </div>
 
       <div className={styles.details}>
-        <p>{about}</p>
-        <p className={styles.tech}>{tech}</p>
+        <p className={styles.about}>{about}</p>
+        <p>{tech}</p>
       </div>
     </div>
   </div>
