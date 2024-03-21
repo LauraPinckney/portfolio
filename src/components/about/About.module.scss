@@ -6,26 +6,21 @@
   text-align: center;
 }
 
-.spacing {
-  padding-right: 0.75em;
-}
-
-.blurb {
-  padding-bottom: 1em;
-  font-size: 1.15em;
+.headline {
+  background-color: $secondary-colour;
 }
 
 .profile {
   max-height: 20em;
   max-width: 15em;
   padding: 1em 1em;
+  border-radius: 20em;
 }
 
 .resumeButton {
   border: solid white 1px;
   padding: 0.5em;
   text-decoration: none;
-  background-color: white;
+  background-color: $secondary-colour;
   border-radius: 10px;
-  color: black;
 }

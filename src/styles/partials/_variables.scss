@@ -2,3 +2,13 @@ $tablet-breakpoint: 768px;
 $desktop-breakpoint: 1280px;
 
 $alert-text-colour: hotpink;
+
+$primary-colour: #e5aa70;
+$secondary-colour: #f2d2bd;
+$pale-colour: #fbf7f3;
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}

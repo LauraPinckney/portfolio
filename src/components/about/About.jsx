@@ -5,17 +5,13 @@ import profile from '../../assets/profile.jpg';
 export const About = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.spacing}>
-        <h1>Laura Pinckney</h1>
-        <h2>Software Engineer</h2>
-      </div>
       <div>
-        <p className={styles.blurb}>
+        <p>
           Whilst on maternity leave I decided to try some online coding courses
           to keep my brain working in an educational way. I really enjoyed the
           methodical nature of executing code and ultimately making it work.{' '}
         </p>
-        <p className={styles.blurb}>
+        <p>
           I completed an intensive 12 week bootcamp in Software Engineering and
           am looking forward to starting my new career.
         </p>

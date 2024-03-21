@@ -2,8 +2,8 @@
 @import '../../styles/partials/variables';
 
 .container {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  text-align: center;
   background-color: $secondary-colour;
 }

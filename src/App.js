@@ -1,5 +1,6 @@
 import './styles/global.scss';
 import {
+  Headline,
   About,
   Contact,
   Footer,
@@ -11,6 +12,7 @@ export const App = () => {
   return (
     <div>
       <UnderConstruction />
+      <Headline />
       <About />
       <ProjectList />
       <Contact />
