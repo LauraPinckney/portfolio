@@ -6,6 +6,10 @@ export const About = () => {
   return (
     <div className={styles.container}>
       <div>
+        <h1>Laura Pinckney</h1>
+        <h2>Software Engineer</h2>
+      </div>
+      <div>
         <p>
           Whilst on maternity leave I decided to try some online coding courses
           to keep my brain working in an educational way. I really enjoyed the

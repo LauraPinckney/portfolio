@@ -1,0 +1,15 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/variables';
+
+.container {
+  display: flex;
+  justify-content: left;
+  padding: 1em 2em 1em 2em;
+  background-color: $secondary-colour;
+}
+
+ol li {
+  list-style: none;
+  background-color: $secondary-colour;
+  padding: 0 0.25em;
+}

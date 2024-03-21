@@ -1,9 +1,9 @@
 import './styles/global.scss';
 import {
-  Headline,
   About,
   Contact,
   Footer,
+  NavBar,
   ProjectList,
   UnderConstruction,
 } from './components';
@@ -11,8 +11,8 @@ import {
 export const App = () => {
   return (
     <div>
-      <UnderConstruction />
-      <Headline />
+      {/* <UnderConstruction /> */}
+      <NavBar />
       <About />
       <ProjectList />
       <Contact />
