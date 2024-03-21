@@ -1,5 +1,6 @@
 import styles from './About.module.scss';
 import LauraPinckneyCV from '../../assets/LauraPinckneyCV.pdf';
+import profile from '../../assets/profile.jpg';
 
 export const About = () => {
   return (
@@ -18,6 +19,7 @@ export const About = () => {
           I completed an intensive 12 week bootcamp in Software Engineering and
           am looking forward to starting my new career.
         </p>
+        <img src={profile} alt="profile" className={styles.profile}></img>
         <a
           className={styles.resumeButton}
           rel="noreferrer"
