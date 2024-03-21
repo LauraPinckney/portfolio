@@ -5,7 +5,9 @@ export const ProjectComponent = ({ title, about, tech, sourceCode, image }) => (
   <div>
     <div className={styles.container}>
       <div>
-        <img src={image} alt="project" class={styles.image}></img>
+        <a href={sourceCode} target="_blank" rel="noopener noreferrer">
+          <img src={image} alt="project" class={styles.image}></img>
+        </a>
       </div>
       <div>
         <a href={sourceCode} target="_blank" rel="noopener noreferrer">

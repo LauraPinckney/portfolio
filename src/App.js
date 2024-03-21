@@ -11,7 +11,7 @@ import {
 export const App = () => {
   return (
     <div>
-      {/* <UnderConstruction /> */}
+      <UnderConstruction />
       <Headline />
       <About />
       <ProjectList />
