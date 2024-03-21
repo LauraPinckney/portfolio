@@ -1,0 +1,9 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/variables';
+
+.container {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  text-align: center;
+  background-color: $secondary-colour;
+}

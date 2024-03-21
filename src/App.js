@@ -3,7 +3,7 @@ import {
   About,
   Contact,
   Footer,
-  NavBar,
+  Headline,
   ProjectList,
   UnderConstruction,
 } from './components';
@@ -12,7 +12,7 @@ export const App = () => {
   return (
     <div>
       {/* <UnderConstruction /> */}
-      <NavBar />
+      <Headline />
       <About />
       <ProjectList />
       <Contact />
