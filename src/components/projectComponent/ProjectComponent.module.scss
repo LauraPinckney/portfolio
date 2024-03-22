@@ -7,6 +7,16 @@
   flex-wrap: wrap;
   padding: 1em;
   text-align: center;
+
+  @include largeMobile {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  @include desktop {
+    text-align: center;
+    padding: 1em 10em;
+  }
 }
 
 .title {
@@ -21,6 +31,7 @@
 .details {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about {

@@ -14,7 +14,7 @@ export const projects = [
     image: howSickIsMyBaby,
   },
   {
-    title: 'robo friends',
+    title: 'Robo Friends',
     about: 'Developed as part of my React learning. Fun app that uses an API.',
     tech: ' Tech used in this project included JavaScript, HTML, CSS and GitHub',
     // tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
@@ -23,7 +23,8 @@ export const projects = [
   },
   {
     title: 'Background Generator',
-    about: 'Developed as part of my JavaScript learning.',
+    about:
+      'Developed as part of my JavaScript learning. App that can create random background options.',
     tech: ' Tech used in this project included JavaScript, HTML, CSS and GitHub',
     // tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
     sourceCode: 'https://github.com/LauraPinckney/BackgroundGenerator',

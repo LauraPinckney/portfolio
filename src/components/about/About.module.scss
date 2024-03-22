@@ -4,6 +4,19 @@
 .container {
   padding: 1em;
   text-align: center;
+
+  @include tablet {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em 3em;
+  }
+
+  @include desktop {
+    font-size: 1.5rem;
+    padding: 1em 5em;
+  }
 }
 
 .headline {
@@ -23,12 +36,34 @@
   max-width: 15em;
   padding: 1em 1em;
   border-radius: 20em;
+
+  @include desktop {
+    max-height: 15em;
+    max-width: 10em;
+  }
 }
 
-.resumeButton {
+.hideTabletResumeButton {
   border: solid white 1px;
   padding: 0.5em;
   text-decoration: none;
   background-color: $secondary-colour;
   border-radius: 10px;
+  font-weight: 800;
+  @include tablet {
+    display: none;
+  }
+}
+
+.hideResumeButton {
+  border: solid white 1px;
+  padding: 0.5em;
+  text-decoration: none;
+  background-color: $secondary-colour;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.bottomPadding {
+  padding-bottom: 1em;
 }

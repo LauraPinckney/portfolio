@@ -11,15 +11,23 @@ export const About = () => {
           to keep my brain working in an educational way. I really enjoyed the
           methodical nature of executing code and ultimately making it work.{' '}
         </p>
-        <p>
+        <p className={styles.bottomPadding}>
           I completed an intensive 12 week bootcamp in Software Engineering and
           am looking forward to starting my new career.
         </p>
+        <a
+          className={styles.hideResumeButton}
+          rel="noreferrer"
+          target="_blank"
+          href={LauraPinckneyCV}
+        >
+          View Resume
+        </a>
       </div>
       <div className={styles.photoButton}>
         <img src={profile} alt="profile" className={styles.profile}></img>
         <a
-          className={styles.resumeButton}
+          className={styles.hideTabletResumeButton}
           rel="noreferrer"
           target="_blank"
           href={LauraPinckneyCV}
