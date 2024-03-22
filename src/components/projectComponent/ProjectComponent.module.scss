@@ -32,11 +32,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @include desktop {
+    font-size: 1.5rem;
+  }
 }
 
 .about {
   padding: 0.5em;
 }
+
 .image {
   max-height: 15em;
   max-width: 15em;
