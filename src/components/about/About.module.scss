@@ -62,6 +62,10 @@
   background-color: $secondary-colour;
   border-radius: 10px;
   font-weight: 800;
+  display: none;
+  @include tablet {
+    display: initial;
+  }
 }
 
 .bottomPadding {
