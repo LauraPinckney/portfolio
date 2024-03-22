@@ -10,6 +10,14 @@
   background-color: $secondary-colour;
 }
 
+.photoButton {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
 .profile {
   max-height: 20em;
   max-width: 15em;

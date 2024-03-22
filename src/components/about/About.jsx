@@ -15,6 +15,8 @@ export const About = () => {
           I completed an intensive 12 week bootcamp in Software Engineering and
           am looking forward to starting my new career.
         </p>
+      </div>
+      <div className={styles.photoButton}>
         <img src={profile} alt="profile" className={styles.profile}></img>
         <a
           className={styles.resumeButton}

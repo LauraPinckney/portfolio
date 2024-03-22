@@ -10,6 +10,12 @@
   }
 }
 
+@mixin largeMobile {
+  @media (min-width: $large-mobile-breakpoint) {
+    @content;
+  }
+}
+
 @mixin button {
   border: solid 1px;
   border-radius: 10px;
