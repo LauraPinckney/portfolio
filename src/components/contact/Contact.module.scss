@@ -19,6 +19,10 @@
   justify-content: space-evenly;
   padding-bottom: 1em;
 
+  @include largeMobile {
+    padding: 0 8em 1em 8em;
+  }
+
   @include desktop {
     padding: 0 25em 1em 25em;
   }
