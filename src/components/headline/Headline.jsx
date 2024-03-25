@@ -1,10 +1,14 @@
 import styles from './Headline.module.scss';
+import hero from '../../assets/heroImage.png';
 
 export const Headline = () => {
   return (
     <div>
-      <h1 className={styles.container}>Laura Pinckney</h1>
-      <h2 className={styles.container}>Software Engineer</h2>
+      <img
+        src={hero}
+        alt="Laura Pinckney, Software Engineer"
+        className={styles.hero}
+      ></img>
     </div>
   );
 };
