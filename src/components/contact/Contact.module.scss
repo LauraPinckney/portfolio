@@ -6,6 +6,10 @@
   justify-content: space-evenly;
   padding: 1em;
   text-align: center;
+
+  @include desktop {
+    padding: 1em 4em;
+  }
 }
 
 .logo {

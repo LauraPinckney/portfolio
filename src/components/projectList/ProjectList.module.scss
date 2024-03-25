@@ -6,4 +6,8 @@
   justify-content: space-evenly;
   padding: 1em;
   flex-direction: column;
+
+  @include desktop {
+    padding: 1em 4em;
+  }
 }
