@@ -27,7 +27,7 @@ export const projects = [
     about:
       'Project to showcase skills learnt throughout the Code First Girls - Introduction to Python & Apps course',
     // tech: ['Python', 'GitHub'],
-    tech: 'tech used in this project included Python and GitHub',
+    tech: 'Tech used in this project included Python and GitHub',
     sourceCode: 'https://github.com/LauraPinckney/CFG--PythonTask',
     image: cfgPython,
   },
