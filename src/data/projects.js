@@ -2,6 +2,7 @@ import howSickIsMyBaby from '../assets/howSickIsMyBaby.png';
 import roboFriends from '../assets/roboFriends.png';
 import backgroundGenerator from '../assets/backgroundGenerator.png';
 import dateNightDecider from '../assets/dateNightDecider.png';
+import cfgPython from '../assets/cfgPython.png';
 
 export const projects = [
   {
@@ -20,6 +21,14 @@ export const projects = [
     // tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
     sourceCode: 'https://github.com/LauraPinckney/robofriends',
     image: roboFriends,
+  },
+  {
+    title: 'CFG - Python Project',
+    about:
+      'Project to showcase skills learnt throughout the Code First Girls - Introduction to Python & Apps course',
+    // tech: ['Python', 'GitHub'],
+    sourceCode: 'https://github.com/LauraPinckney/CFG--PythonTask',
+    image: cfgPython,
   },
   {
     title: 'Background Generator',
