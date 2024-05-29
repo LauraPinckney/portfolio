@@ -3,6 +3,7 @@ import roboFriends from '../assets/roboFriends.png';
 import backgroundGenerator from '../assets/backgroundGenerator.png';
 import dateNightDecider from '../assets/dateNightDecider.png';
 import cfgPython from '../assets/cfgPython.png';
+import portfolio from '../assets/portfolio.png';
 
 export const projects = [
   {
@@ -15,6 +16,15 @@ export const projects = [
     image: howSickIsMyBaby,
   },
   {
+    title: 'Portfolio',
+    about:
+      'Created portfolio without use of templates as wanted to showcase my learning and push myself to make a app from scratch.',
+    tech: ' Tech used in this project included JavaScript, HTML, CSS and GitHub',
+    // tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
+    sourceCode: 'https://github.com/LauraPinckney/portfolio',
+    image: portfolio,
+  },
+  {
     title: 'Robo Friends',
     about: 'Developed as part of my React learning. Fun app that uses an API.',
     tech: ' Tech used in this project included JavaScript, HTML, CSS and GitHub',
@@ -25,7 +35,7 @@ export const projects = [
   {
     title: 'CFG - Python Project',
     about:
-      'Project to showcase skills learnt throughout the Code First Girls - Introduction to Python & Apps course',
+      'Project to showcase skills learnt throughout the Code First Girls - Introduction to Python & Apps course.',
     // tech: ['Python', 'GitHub'],
     tech: 'Tech used in this project included Python and GitHub',
     sourceCode: 'https://github.com/LauraPinckney/CFG--PythonTask',
