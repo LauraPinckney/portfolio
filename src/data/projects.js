@@ -18,7 +18,7 @@ export const projects = [
   {
     title: 'Portfolio',
     about:
-      'Created portfolio without use of templates as wanted to showcase my learning and push myself to make a app from scratch.',
+      'Created portfolio without use of templates as wanted to showcase my learning and push myself to make an app from scratch.',
     tech: ' Tech used in this project included JavaScript, HTML, CSS and GitHub',
     // tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
     sourceCode: 'https://github.com/LauraPinckney/portfolio',
